@@ -1,0 +1,43 @@
+.control-panel-wraper {
+  width: max-content;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.486);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.control-panel-label {
+  display: flex;
+  justify-content: center;
+}
+
+.control-panel-button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-image: url('../../statics/arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+  background-color: rgba(255, 255, 255, 0.171);
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.control-panel-button:hover {
+  background-color: rgb(75, 144, 234);
+}
+
+.up {
+  transform: rotate(-90deg);
+}
+
+.down {
+  transform: rotate(90deg);
+}
+
+.left {
+  transform: rotate(180deg);
+}

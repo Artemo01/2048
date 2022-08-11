@@ -1,0 +1,54 @@
+.win-game-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.795);
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  border-radius: 10px;
+  padding: 30px;
+  animation: slide 1s;
+}
+
+.win-game-header {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.win-game-button {
+  color: white;
+  background-color: rgb(91, 161, 209);
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.win-game-button:hover {
+  background-color: rgb(65, 121, 158);
+}
+
+@keyframes slide {
+  from {
+    top: 50%;
+  }
+  to {
+    top: 20%;
+  }
+}

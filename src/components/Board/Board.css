@@ -1,0 +1,12 @@
+.board-wrapper {
+  background-color: rgba(0, 0, 0, 0.486);
+  width: max-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.board_row {
+  display: flex;
+  flex-direction: row;
+}
